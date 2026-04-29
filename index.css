@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f4f8fb;
+    color:#333;
+}
+
+/* HEADER */
+
+header{
+    background:linear-gradient(135deg,#0a66c2,#084a94);
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:20px;
+    max-width:700px;
+    margin:auto;
+}
+
+/* BUTTON */
+
+.btn-primary{
+    background:white;
+    color:#0a66c2;
+    padding:14px 28px;
+    border-radius:30px;
+    font-weight:600;
+    text-decoration:none;
+    display:inline-block;
+    margin-top:25px;
+}
+
+/* SECTION */
+
+.section{
+    padding:70px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+/* CARD */
+
+.card{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* TITLES */
+
+h2{
+    color:#0a66c2;
+    margin-bottom:20px;
+}
+
+.center-title{
+    text-align:center;
+}
+
+/* SERVICES */
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.service-box{
+    background:#ffffff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.05);
+}
+
+.service-box h3{
+    color:#084a94;
+    margin-bottom:10px;
+}
+
+/* FORM */
+
+form{
+    display:grid;
+    gap:15px;
+}
+
+input,
+textarea{
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    font-family:inherit;
+}
+
+button{
+    background:#0a66c2;
+    color:white;
+    padding:14px;
+    border:none;
+    border-radius:30px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#084a94;
+}
+
+/* WHATSAPP BUTTON */
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#e9eef5;
+    margin-top:40px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:600px){
+
+    header h1{
+        font-size:28px;
+    }
+
+    header p{
+        font-size:16px;
+    }
+
+}
